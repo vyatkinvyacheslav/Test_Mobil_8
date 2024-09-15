@@ -132,7 +132,7 @@ class ChangeTextTest {
         device.findObject(By.res(packageName, "buttonActivity")).click()
         Thread.sleep(4000)
 
-        val result = device.findObject(By.res(packageName, "textView")).text
+        val result = device.findObject(By.res(packageName, "text")).text
         assertEquals(result, "Netology")
         Thread.sleep(4000)
 
