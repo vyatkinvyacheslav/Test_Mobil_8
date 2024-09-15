@@ -135,6 +135,8 @@ class ChangeTextTest {
         val result = device.findObject(By.res(packageName, "textView")).text
         assertEquals(result, "Netology")
         Thread.sleep(4000)
+
+
     }
 
 }
